@@ -1,0 +1,88 @@
+# ===========================
+# Android & Kotlin Project
+# ===========================
+
+# Gradle build outputs
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+signing.properties
+
+# IntelliJ / Android Studio project files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+
+# Log / temp / misc
+*.log
+*.temp
+*.tmp
+
+# Keystore / signing files
+*.jks
+*.keystore
+*.p12
+keystore.*
+release-keystore.*
+debug.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gradle wrapper logs
+gradle-app.setting
+!gradle-wrapper.properties
+
+# Build cache / output
+out/
+*.apk
+*.ap_
+*.aab
+
+# Crashlytics / Firebase
+crashlytics-build.properties
+fabric.properties
+google-services.json
+
+# NDK / CMake
+obj/
+*.so
+
+# Jetpack Compose Preview cache
+*.preview.cache
+
+# ===========================
+# Optional (GitHub Actions)
+# ===========================
+# Workflow build artifacts
+*.zip
+*.tar.gz
+
+# ===========================
+# Personal / Misc
+# ===========================
+# Do not commit test data or notes
+notes.txt
+todo.txt
+
+# VSCode (if sometimes used)
+.vscode/
+.history/
